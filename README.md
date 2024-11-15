@@ -33,7 +33,9 @@ Tunggu proses selesai. Proyek akan diunduh ke folder baru dengan nama repository
 2. Masuk ke Folder Proyek
 
 Pindah ke direktori proyek:
-cd repository_name 6. Jalankan Perintah Flutter
+cd repository_name 
+
+6. Jalankan Perintah Flutter
 
 Jalankan perintah berikut untuk mengunduh semua dependensi proyek:
 
