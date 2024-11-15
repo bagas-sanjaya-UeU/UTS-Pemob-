@@ -8,6 +8,7 @@ import 'presentation/pages/settings_page.dart';
 import 'core/navigation/navigation_service.dart';
 import 'presentation/controllers/home_controller.dart';
 import 'domain/usecases/navigate_to_page.dart';
+import 'presentation/pages/login_page.dart';
 
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();
@@ -45,8 +46,9 @@ class MyApp extends StatelessWidget {
       navigatorKey: NavigationService.navigatorKey,
       title: 'Pemob Tracking Data Lokasi Isolasi Mandiri',
       debugShowCheckedModeBanner: false,
-      initialRoute: '/home',
+      initialRoute: '/login', // Ubah rute awal ke halaman login
       routes: {
+        '/login': (context) => LoginPage(),
         '/home': (context) => HomePage(homeController),
         '/profile': (context) => ProfilePage(homeController),
         '/settings': (context) => SettingsPage(homeController),

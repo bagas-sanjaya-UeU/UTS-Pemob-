@@ -56,27 +56,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Future<void> _showSuccessLoginNotification() async {
-    const AndroidNotificationDetails androidPlatformChannelSpecifics =
-        AndroidNotificationDetails(
-      'login_channel',
-      'Login Notifications',
-      channelDescription: 'Notifications for login actions.',
-      importance: Importance.max,
-      priority: Priority.high,
-      showWhen: true,
-    );
-    const NotificationDetails platformChannelSpecifics =
-        NotificationDetails(android: androidPlatformChannelSpecifics);
-
-    await flutterLocalNotificationsPlugin.show(
-      0, // Notification ID
-      'Login Success', // Title
-      'Logged in successfully', // Body
-      platformChannelSpecifics,
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return BasePage(

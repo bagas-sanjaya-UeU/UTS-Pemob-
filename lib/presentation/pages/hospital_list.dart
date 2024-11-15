@@ -57,7 +57,6 @@ class _HospitalPageState extends State<HospitalPage> {
       status: 'Tersedia',
       contact: '021-6543210',
     ),
-    // Tambahkan data rumah sakit lainnya di sini
   ];
 
   List<Hospital> filteredHospitals = [];

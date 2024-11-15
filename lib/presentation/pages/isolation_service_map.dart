@@ -72,7 +72,6 @@ class _IsolationServiceMapState extends State<IsolationServiceMap> {
   }
 
   void _showMarkerDetail(String name, String address) {
-    // tampilkan tooltip atau dialog dengan detail layanan isolasi
     showDialog(
       context: context,
       builder: (BuildContext context) {
