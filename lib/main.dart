@@ -31,8 +31,6 @@ void main() async {
 
   FirebaseMessaging.onBackgroundMessage(backgroundMessageHandler);
 
-  final fcmToken = await FirebaseMessaging.instance.getToken();
-
   runApp(MyApp());
 }
 

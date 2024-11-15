@@ -5,7 +5,6 @@ import '../../main.dart';
 import 'base_page.dart';
 import '../controllers/home_controller.dart';
 
-import 'isolation_service_map.dart';
 import 'menu.dart';
 
 class HomePage extends StatefulWidget {

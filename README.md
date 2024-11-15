@@ -8,5 +8,6 @@ Aplikasi Tracking Data Lokasi Layanan Isolasi Mandiri adalah sebuah sistem yang 
 
 ## Tech
 
-- Flutter 3
+- Flutter
 - Open Street Map
+- Firebase
