@@ -45,7 +45,14 @@ class Profile extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'sanjaya@gmail.com',
+              'charderrasanjaya@gmail.com',
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.grey[600],
+              ),
+            ),
+            Text(
+              '20210801088',
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.grey[600],

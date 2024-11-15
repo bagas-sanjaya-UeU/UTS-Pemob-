@@ -43,16 +43,23 @@ class _IsolationServiceMapState extends State<IsolationServiceMap> {
           .then((QuerySnapshot snapshot) {
         snapshot.docs.forEach((doc) {
           GeoPoint geoPoint = doc['location'];
+          String name = doc['name'];
+          String address = doc['address'];
           setState(() {
             _markers.add(
               Marker(
                 width: 80.0,
                 height: 80.0,
                 point: LatLng(geoPoint.latitude, geoPoint.longitude),
-                child: Icon(
-                  Icons.local_hospital,
-                  color: Colors.red,
-                  size: 40.0,
+                child: GestureDetector(
+                  onTap: () {
+                    _showMarkerDetail(name, address);
+                  },
+                  child: Icon(
+                    Icons.local_hospital,
+                    color: Colors.red,
+                    size: 40.0,
+                  ),
                 ),
               ),
             );
@@ -62,6 +69,27 @@ class _IsolationServiceMapState extends State<IsolationServiceMap> {
     } catch (e) {
       print("Gagal memuat data layanan isolasi: $e");
     }
+  }
+
+  void _showMarkerDetail(String name, String address) {
+    // tampilkan tooltip atau dialog dengan detail layanan isolasi
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text(name),
+          content: Text(address),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text('Tutup'),
+            ),
+          ],
+        );
+      },
+    );
   }
 
   @override

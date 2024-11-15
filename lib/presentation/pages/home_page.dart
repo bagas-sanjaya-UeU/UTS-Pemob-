@@ -4,8 +4,9 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import '../../main.dart';
 import 'base_page.dart';
 import '../controllers/home_controller.dart';
-import 'dashboard.dart';
+
 import 'isolation_service_map.dart';
+import 'menu.dart';
 
 class HomePage extends StatefulWidget {
   final HomeController controller;
@@ -77,16 +78,10 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  void _navigateToNextPage() {
-    Navigator.of(context).push(MaterialPageRoute(
-        builder: (context) =>
-            Dashboard())); // Ensure you have a NextPage widget.
-  }
-
   @override
   Widget build(BuildContext context) {
     return BasePage(
-      bodyContent: IsolationServiceMap(),
+      bodyContent: MenuPage(),
       selectedIndex: 0,
       controller: widget.controller,
     );
