@@ -44,3 +44,8 @@ flutter pub get
 Jika Anda menggunakan emulator atau perangkat fisik, pastikan perangkat tersebut sudah disiapkan dan jalankan perintah:
 
 flutter run
+
+## 📲 Screenshot
+<p align="center">
+  <img src="assets/images/hasil aplikasi/login-page.jpeg" alt="list chat" width="200" height="500">
+</p>
