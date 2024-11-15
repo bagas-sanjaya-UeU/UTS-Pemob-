@@ -45,7 +45,12 @@ Jika Anda menggunakan emulator atau perangkat fisik, pastikan perangkat tersebut
 
 flutter run
 
-## 📲 Screenshot
+## 📲 Screenshot hasil aplikasi 
 <p align="center">
   <img src="assets/images/hasil aplikasi/login-page.jpeg" alt="list chat" width="200" height="500">
+  <img src="assets/images/hasil aplikasi/home-page-notification.jpeg" alt="list chat" width="200" height="500">
+  <img src="assets/images/hasil aplikasi/home-page.jpeg" alt="list chat" width="200" height="500">
+  <img src="assets/images/hasil aplikasi/layanan-isolasi-map-page.jpeg" alt="list chat" width="200" height="500">
+  <img src="assets/images/hasil aplikasi/list-hospital-page.jpeg" alt="list chat" width="200" height="500">
+  <img src="assets/images/hasil aplikasi/profile-page.jpeg" alt="list chat" width="200" height="500">
 </p>
