@@ -52,6 +52,9 @@ Aplikasi ini memiliki antarmuka yang intuitif dan ramah pengguna, dilengkapi den
 - Jika diperlukan, pengguna dapat menyalin atau menggunakan kontak untuk menghubungi layanan isolasi mandiri.
 - Pengguna dapat kembali ke halaman utama untuk mencari atau melihat layanan lain.
 
+## Diagram Flow
+![diagram flow](diagram-flow.png)
+
 ## Tech
 
 - Flutter
