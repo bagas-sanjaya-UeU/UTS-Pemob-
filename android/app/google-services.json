@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "399788725097",
+    "project_id": "pemograman-mobile-e32d1",
+    "storage_bucket": "pemograman-mobile-e32d1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399788725097:android:2c395b70a3fa7a797023f8",
+        "android_client_info": {
+          "package_name": "com.charderra.elib.digital_library"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkdamd1wI7KhlCLSEKuDPGJZURgoFTSXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399788725097:android:e5e32d30a049d97f7023f8",
+        "android_client_info": {
+          "package_name": "com.charderra.tracking_loc_isolasi_mandiri.tracking_lokasi_isolasi_mandiri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkdamd1wI7KhlCLSEKuDPGJZURgoFTSXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399788725097:android:41d3353e31ba4caa7023f8",
+        "android_client_info": {
+          "package_name": "com.example.sanjaya_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkdamd1wI7KhlCLSEKuDPGJZURgoFTSXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399788725097:android:4d10fe3962b5dbfd7023f8",
+        "android_client_info": {
+          "package_name": "com.sanjaya.pemob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkdamd1wI7KhlCLSEKuDPGJZURgoFTSXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399788725097:android:27b254dbcf2d01747023f8",
+        "android_client_info": {
+          "package_name": "my.id.sanjaya.pert6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkdamd1wI7KhlCLSEKuDPGJZURgoFTSXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
